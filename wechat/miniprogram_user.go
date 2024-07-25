@@ -32,9 +32,9 @@ type miniprogramUserPhoneNumberEntity struct {
 	Errcode   int    `json:"errcode"`
 	Errmsg    string `json:"errmsg"`
 	PhoneInfo struct {
-		PhoneNumber     string `json:"phone_number"`
-		PurePhoneNumber string `json:"pure_phone_number"`
-		CountryCode     int    `json:"country_code"`
+		PhoneNumber     string `json:"phoneNumber"`
+		PurePhoneNumber string `json:"purePhoneNumber"`
+		CountryCode     int    `json:"countryCode"`
 		Watermark       struct {
 			Timestamp int64  `json:"timestamp"`
 			Appid     string `json:"appid"`
